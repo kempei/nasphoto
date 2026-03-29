@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.ipa
+
+# Swift
+.build/
+.swiftpm/
+
+# Go
+omvapi/vendor/
+
+# Secrets / credentials
+*.env
+.env.*
+/tmp/
+**/secrets.json
+**/credential.json
+
+# Supabase local
+supabase/.temp/
